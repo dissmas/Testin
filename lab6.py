@@ -13,11 +13,11 @@ email = driver.find_element_by_id("index_email")
 password = driver.find_element_by_id("index_pass")
 
 email.click()
-email.send_keys("")
+email.send_keys("login")
 time.sleep(1)
 
 password.click()
-password.send_keys("")
+password.send_keys("password")
 time.sleep(1)
 
 button = driver.find_element_by_id("index_login_button")
